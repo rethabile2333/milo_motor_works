@@ -44,7 +44,7 @@ function WhyChooseUs() {
         <div className="section-heading center">
 
           <span className="section-label">
-            WHY MILO MOTOR WORKS
+            WHY CHOOSE MILO MOTOR WORKS
           </span>
 
           <h2>
