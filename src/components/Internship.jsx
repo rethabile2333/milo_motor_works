@@ -43,7 +43,7 @@ export default function Internship() {
   ];
 
   return (
-    <div className="internship-page">
+    <div className="internship-page" id="internships">
 
       {/* HERO */}
       <section className="internship-hero">

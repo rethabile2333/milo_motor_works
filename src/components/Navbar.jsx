@@ -39,6 +39,10 @@ function Navbar() {
             Services
           </a>
 
+           <a href="#internships" onClick={closeMenu}>
+            Internships
+          </a>
+
           <a href="#gallery" onClick={closeMenu}>
             Our Work
           </a>

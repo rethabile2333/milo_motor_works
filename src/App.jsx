@@ -6,6 +6,7 @@ import Gallery from "./components/Gallery";
 import WhyChooseUs from "./components/WhyChooseUs";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Interships from "./components/Internship";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Hero />
         <About />
         <Services />
+        <Interships />
         <Gallery />
         <WhyChooseUs />
         <Contact />
