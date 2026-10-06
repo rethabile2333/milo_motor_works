@@ -272,7 +272,7 @@ export default function Internship() {
               to discuss available opportunities and requirements.
             </p>
 
-            <a href="/contact" className="internship-cta-btn">
+            <a href="/#contact" className="internship-cta-btn">
               Contact Milo Motor Works
               <ArrowRight size={19} />
             </a>
