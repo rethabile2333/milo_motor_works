@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -9,6 +10,28 @@ import Footer from "./components/Footer";
 import Interships from "./components/Internship";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="loading-screen">
+        <img
+          src="/milo-logo.png"
+          alt="Milo Motor Works"
+          className="loading-logo"
+        />
+      </div>
+    );
+  }
+
   return (
     <>
       <Navbar />
