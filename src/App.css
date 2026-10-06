@@ -194,11 +194,6 @@
   background: #111;
 }
 
-.loading-logo {
-  width: 220px;
-  max-width: 70%;
-  animation: logoPulse 1.5s ease-in-out infinite;
-}
 
 @keyframes logoPulse {
   0% {

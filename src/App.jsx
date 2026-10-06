@@ -20,18 +20,6 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
-  if (loading) {
-    return (
-      <div className="loading-screen">
-        <img
-          src="/milo-logo.png"
-          alt="Milo Motor Works"
-          className="loading-logo"
-        />
-      </div>
-    );
-  }
-
   return (
     <>
       <Navbar />
